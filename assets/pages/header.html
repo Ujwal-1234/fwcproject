@@ -1,0 +1,48 @@
+<header>
+    <p class="links">
+        <a href="../fwcproject/" class="size">HOME</a>
+        <a href="#" class="size">ABOUT US</a>
+        <a href="#login" onclick="show()" class="size">LOGIN</a>
+        <a href="#signup" onclick="show2()" class="size">SIGNUP</a>
+    </p>
+    <section id="login" class="no">
+        <form class="loginform" action="../fwcproject/assets/php/logaction.php" method="post">
+            <p>
+                <label>User Id : <input type="text" name="uid" class="w" placeholder="user or mail"></label>
+            </p>
+            <p>
+                <label>Password : <input type="password" name="pwd" class="w" placeholder="password"></label>
+            </p>
+            <p><br>
+                <input type="submit" class="logbtn w" name="lbtn" value="LOGIN">
+            </p>
+        </form>
+    </section>
+    <section id="signup" class="no">
+        <form class="loginform" action="../fwcproject/assets/php/logaction.php" method="post">
+            <p>
+                <label>Name : <input type="text" name="name" class="w" placeholder="USER NAME"></label>
+            </p>
+            <p>
+                <label>Email : <input type="text" name="mail" class="w" placeholder="MAIL"></label>
+            </p>
+            <p>
+                <label>Password : <input type="password" name="pwd" class="w" placeholder="PASSWORD"></label>
+            </p>
+            <p><br>
+                <input type="submit" class="logbtn w" name="sbtn" value="SIGNUP">
+            </p>
+        </form>
+    </section>
+</header>
+<script>
+    function show(){
+        document.getElementById('signup').style.display='none';
+        document.getElementById('login').style.display='block';
+    }
+    function show2(){
+        document.getElementById('login').style.display='none';
+        document.getElementById('signup').style.display='block';
+    }
+</script>
+
