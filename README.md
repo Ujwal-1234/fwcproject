@@ -26,4 +26,9 @@ and store in the htdocs of your xampp folder.
 Then start the xampp control application and start apache, mysql, mercury module.
 And now you can see the project working in your browser.
 
+***********************************************************
+
+DEMO VIDEO LINK : https://drive.google.com/file/d/1v7nAjn9ztBvuqiGLe7w1XWQAaBmv-tIW/view?usp=sharing
+
+***********************************************************
 Thank you !!.. 
